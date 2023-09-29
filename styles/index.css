@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components {
+  .underlinemotion {
+    @apply relative;
+  }
+
+  .underlinemotion::after {
+    @apply content-[''] bg-slate-400 h-[1px] w-[0%] left-0 -bottom-[5px] absolute duration-300;
+  }
+
+  .underlinemotion:hover::after {
+    @apply w-[100%];
+  }
+}
+
+@layer base {
+  html {
+    font-family: Inter, system-ui, sans-serif;
+  }
+}
+
