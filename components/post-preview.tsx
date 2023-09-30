@@ -7,13 +7,11 @@ import type Author from "../interfaces/author";
 type Props = {
   title: string;
   coverImage: string;
-  date: string;
   excerpt: string;
-  author: Author;
   slug: string;
 };
 
-const PostPreview = ({ title, coverImage, excerpt, slug, date, author }: Props) => {
+const PostPreview = ({ title, coverImage, excerpt, slug,}: Props) => {
   return (
     <div className=" max-w-full my-4 inline-block hover:text-white underlinemotion ">
       <div className=" bg-white">
@@ -28,7 +26,6 @@ const PostPreview = ({ title, coverImage, excerpt, slug, date, author }: Props) 
         >
           {title}
         </Link>
-
           {/* <Avatar
           myRole={`My Role ${author.myRole}`}
           category={`Category ${author.category}`}

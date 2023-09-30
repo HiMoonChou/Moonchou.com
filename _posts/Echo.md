@@ -2,11 +2,11 @@
 title: 'Echo Platform'
 excerpt: '#Industrial Design - Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. '
 coverImage: '/assets/echo/echo.png'
-date: '2020-03-16T05:35:07.322Z'
+date: '2020-06-16T05:35:07.322Z'
 author:
-  myRole: designer
-  category: '#Industrial Design #Keyboard #Commercial'
-  timeline & status: 2 Months, Launched in January 2023
+  myRole: '_ Product designer & project management'
+  category: '_ #Product design #Crypto #Casino'
+  status: '_ 3 Months, Launched in January 2023'
 ogImage:
   url: '/assets/echo/echo.png'
 ---

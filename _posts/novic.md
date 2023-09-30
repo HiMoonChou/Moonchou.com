@@ -2,7 +2,7 @@
 title: 'Novic NFT'
 excerpt: 'Setting and distribution of the "Mutant Republic" superhero series NFT, initiated by a Taiwanese producer.'
 coverImage: '/assets/blog/hello-world/novic.jpg'
-date: '2022-03-16T05:35:07.322Z'
+date: '2022-02-16T05:35:07.322Z'
 author:
   myRole: '_ designer'
   category: '_ #Illustration #NFT #Superhero'

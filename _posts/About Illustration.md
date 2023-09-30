@@ -4,9 +4,9 @@ excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 coverImage: '/assets/blog/hello-world/art.png'
 date: '2020-03-16T05:35:07.322Z'
 author:
-  myRole: designer
-  category: '#Industrial Design #Keyboard #Commercial'
-  timeline & status: 2 Months, Launched in January 2023
+  myRole: '_ Product designer & project management'
+  category: '_ #Product design #Crypto #Casino'
+  status: '_ 3 Months, Launched in January 2023'
 ogImage:
   url: '/assets/blog/hello-world/art.png'
 ---

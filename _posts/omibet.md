@@ -2,14 +2,13 @@
 title: 'Crypto Casino design: Omibet.io'
 excerpt: 'Omibet.io is a blockchain-powered and distributed Global casino that uses smart contracts and blockchain to provide a truly fair gaming platform.'
 coverImage: '/assets/blog/hello-world/omibet.jpg'
-date: '2023-03-16T05:35:07.322Z'
+date: '2023-01-16T05:35:07.322Z'
 author:
   myRole: '_ Product designer & project management'
   category: '_ #Product design #Crypto #Casino'
   status: '_ 3 Months, Launched in January 2023'
-  
 ogImage:
-url: '/assets/blog/hello-world/omibet.jpg'
+  url: '/assets/blog/hello-world/omibet.jpg'
 ---
 #### About The Project
 Omibet.io is a blockchain-powered and distributed Global casino that uses smart contracts and blockchain to provide a truly fair gaming platform.

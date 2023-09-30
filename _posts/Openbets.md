@@ -2,7 +2,7 @@
 title: 'Crypto casino Openbets'
 excerpt: 'OPENBETS: Web 3.0 Casino, The Future of Crypto Betting'
 coverImage: '/assets/blog/hello-world/openbets.jpg'
-date: '2023-01-16T05:35:07.322Z'
+date: '2023-03-16T05:35:07.322Z'
 author:
   myRole: '_ Product designer & project management'
   category: '_ #Product design #Crypto #Casino'

@@ -4,9 +4,9 @@ excerpt: 'Inclusion of non-commercial typography work.'
 coverImage: '/assets/blog/hello-world/poster.gif'
 date: '2022-06-11T05:35:07.322Z'
 author:
-  myRole: designer
-  category: '#Industrial Design #Keyboard #Commercial'
-  timeline & status: 2 Months, Launched in January 2023
+  myRole: '_ Product designer & project management'
+  category: '_ #Product design #Crypto #Casino'
+  status: '_ 3 Months, Launched in January 2023'
 ogImage:
   url: '/assets/blog/hello-world/poster.gif'
 ---

@@ -4,9 +4,9 @@ excerpt: "A full-stack designer dedicated to web3 product construction, worked i
 coverImage: "/assets/blog/dynamic-routing/covers.png"
 date: "2023-09-03T05:35:07.322Z"
 author:
-  myRole: designer
-  category: '#Industrial Design #Keyboard #Commercial'
-  timeline & status: 2 Months, Launched in January 2023
+  myRole: '_ Product designer & project management'
+  category: '_ #Product design #Crypto #Casino'
+  status: '_ 3 Months, Launched in January 2023'
 ogImage:
   url: "/assets/blog/dynamic-routing/covers.png"
 ---
