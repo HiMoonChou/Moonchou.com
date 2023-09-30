@@ -1,66 +1,101 @@
-# A statically generated blog example using Next.js, Markdown, and TypeScript
+A full-stack designer dedicated to web3 product construction, worked in Amazon, Iqiyi and Ziroom, mainly engaged in experience design, brand design, creative design and project management.
 
-This is the existing [blog-starter](https://github.com/vercel/next.js/tree/canary/examples/blog-starter) plus TypeScript.
+Currently working on courses related to computer science and web development, and trying to become a design engineer to understand design implementation and innovation from a development perspective.
 
-This example showcases Next.js's [Static Generation](https://nextjs.org/docs/basic-features/pages) feature using Markdown files as the data source.
+&nbsp;
 
-The blog posts are stored in `/_posts` as Markdown files with front matter support. Adding a new Markdown file in there will create a new blog post.
 
-To create the blog posts we use [`remark`](https://github.com/remarkjs/remark) and [`remark-html`](https://github.com/remarkjs/remark-html) to convert the Markdown files into an HTML string, and then send it down as a prop to the page. The metadata of every post is handled by [`gray-matter`](https://github.com/jonschlinkert/gray-matter) and also sent in props to the page.
+&nbsp;
 
-## Demo
 
-[https://next-blog-starter.vercel.app/](https://next-blog-starter.vercel.app/)
+#### [hi@moonchou.com](https://moonchoudesign@gmail.com)
+#### [resume](https://drive.google.com/file/d/18L0K05pFCYy5VbfhiP_G8CYxCXsOrs8C/view?usp=drive_link)
 
-## Deploy your own
+# Experience
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/blog-starter)
+## Self Employed - Peking & Kuala Lumpur
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/blog-starter&project-name=blog-starter&repository-name=blog-starter)
+July 2022 - Present
 
-### Related examples
+Product Designer/ Brand Designer/ Project Manager, Web3
 
-- [WordPress](/examples/cms-wordpress)
-- [DatoCMS](/examples/cms-datocms)
-- [Sanity](/examples/cms-sanity)
-- [TakeShape](/examples/cms-takeshape)
-- [Prismic](/examples/cms-prismic)
-- [Contentful](/examples/cms-contentful)
-- [Strapi](/examples/cms-strapi)
-- [Agility CMS](/examples/cms-agilitycms)
-- [Cosmic](/examples/cms-cosmic)
-- [ButterCMS](/examples/cms-buttercms)
-- [Storyblok](/examples/cms-storyblok)
-- [GraphCMS](/examples/cms-graphcms)
-- [Kontent](/examples/cms-kontent)
-- [Umbraco Heartcore](/examples/cms-umbraco-heartcore)
-- [Builder.io](/examples/cms-builder-io)
-- [TinaCMS](/examples/cms-tina/)
-- [Enterspeed](/examples/cms-enterspeed)
 
-## How to use
+#### Contributed to client projects at various stages between concept and production. Designed new products, design systems, brands, visuals, and project management.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+#### Branding, marketing, product UI/UX design and project management support for decentralized social products "Weplant" and "halo", decentralized gaming platforms "[Openbets](https://twitter.com/Openbets_gaming)" and "[omibet.io](https://twitter.com/Omibet_official)".
 
-```bash
-npx create-next-app --example blog-starter blog-starter-app
-```
+Clients:TikTok(China), PROYA, Terra Taipei, XPACE, Omibet,OpenBets, Fan-Xing Education, Novic, WePlanet, Shawn Capital, Depott.
 
-```bash
-yarn create next-app --example blog-starter blog-starter-app
-```
+&nbsp;
 
-```bash
-pnpm create next-app --example blog-starter blog-starter-app
-```
+## Ziroom - Peking, CN
+Aug 2019 - Jun 2022
+Senior Creative Designer/ Senior Experience Designer
 
-Your blog should be up and running on [http://localhost:3000](http://localhost:3000)! If it doesn't work, post on [GitHub discussions](https://github.com/vercel/next.js/discussions).
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+#### Designed ToC creative design and ToB product design, management, and design visual design systems.
+Management and design Ziroon Illustration component system 0-1
 
-# Notes
+Management and design Ziroon 3D component system 0-1
 
-`blog-starter` uses [Tailwind CSS](https://tailwindcss.com) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3).
-# Website
-# Website
-# Website
+Design Experience measurement system - Ziroom Echo platform
+
+
+&nbsp;
+
+## Amazon - Peking, CN
+Oct 2018 - May 2019
+Visual design intern, Global Project Services
+
+#### Involved in visual design and production for China market and global projects.
+Visual design of the "Amazon Goddess Festival" and "Amazon New Year's Goods Festival" activities
+
+The creative design of the Alexa ring won the "Amazon Kudos" medal
+
+The Crucible game player account icon design and Alexa at CES 2019 poster design
+
+
+
+&nbsp;
+
+## IQIYI - Peking, CN
+
+Jun 2018 - Sep 2018
+
+User experience design intern, VIP User Product Center
+
+#### Optimize the VIP user experience and establish a design and development collaboration mechanism.
+
+Experience upgrading the video interface, optimizing the information level, and guiding symbols
+
+Responsible for the grayscale and online acceptance of membership pages
+
+Establish a collaborative mechanism to shorten the development landing cycle
+
+&nbsp;
+
+
+# Education
+
+## College of Art and Design, Hankou University, Wuhan, CN
+Sep 2015 - July 2019
+
+#### Bachelor of Fine Arts in Product Design, with emphasis in Industrial design.
+
+
+# Achievements
+
+&nbsp;
+
+Speaker [Ziroom 3D component system](https://meia.me/course/170310?cid=&scid=) in Ziroom Design Week 2021
+
+Speaker [Ziroom illustration component system](https://meia.me/course/169996?cid=&scid=) in Ziroom Design Week 2020
+
+National Scholarships for the 2018 academic year
+
+# Other Skills
+
+## Programming
+Proficient in CSS, HTML, Markdown, and Tailwind CSS
+
+Familiar with JavaScript, React, NextJS and NodeJS
