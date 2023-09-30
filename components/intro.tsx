@@ -18,7 +18,7 @@ const Intro = () => {
       
       </div>
 
-      <h4 className="flex justify-between text-gray-400 md:text-left text-lg">
+      <div className="flex justify-between text-gray-400 md:text-left text-lg">
         
         <h4 className="text-lg ">
           Product & Brand designer
@@ -29,7 +29,7 @@ const Intro = () => {
         >
           About
         </Link>
-      </h4>
+      </div>
     </section>
   );
 };

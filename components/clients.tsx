@@ -29,7 +29,7 @@ export const Clients = () => {
                 key={`${client}-${index}`}
               >
                 <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
+                  <Image src={logo} alt={String(client)} unoptimized />
                 </FadeIn>
               </div>
             ))}
@@ -39,7 +39,7 @@ export const Clients = () => {
                 key={`${client}-${index}`}
               >
                 <FadeIn>
-                  <Image src={logo} alt={client} unoptimized />
+                  <Image src={logo} alt={String(client)} unoptimized />
                 </FadeIn>
               </div>
             ))}
