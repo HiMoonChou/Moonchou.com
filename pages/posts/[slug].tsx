@@ -41,6 +41,8 @@ export default function Post({ post, morePosts, preview }: Props) {
                 title={post.title}
                 coverImage={post.coverImage}
                 date={post.date}
+                excerpt={post.excerpt}
+                slug={post.slug}
                 author={post.author}
               />
               <PostBody content={post.content} />

@@ -1,7 +1,6 @@
 import DateFormatter from "./date-formatter";
 import CoverImage from "./cover-image";
 import Link from "next/link";
-import Avatar from "./avatar";
 import type Author from "../interfaces/author";
 
 type Props = {
@@ -11,7 +10,7 @@ type Props = {
   slug: string;
 };
 
-const PostPreview = ({ title, coverImage, excerpt, slug,}: Props) => {
+const PostPreview = ({ title, coverImage, excerpt, slug}: Props) => {
   return (
     <div className=" max-w-full my-4 inline-block hover:text-white underlinemotion ">
       <div className=" bg-white">
@@ -26,11 +25,6 @@ const PostPreview = ({ title, coverImage, excerpt, slug,}: Props) => {
         >
           {title}
         </Link>
-          {/* <Avatar
-          myRole={`My Role ${author.myRole}`}
-          category={`Category ${author.category}`}
-          status={`Status ${author.status}`}
-        /> */}
       </h3>
       <p className="text-lg text-gray-400 leading-snug mb-2">
         {excerpt}
