@@ -3,7 +3,6 @@ import { EXAMPLE_PATH } from "../lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Linkedin from "./linkedin";
-
 import Moonchou from "../public/assets/blog/dynamic-routing/covers2.svg";
 
 const Footer = () => {
@@ -31,7 +30,8 @@ const Footer = () => {
         <Image
           src={Moonchou}
           alt="Picture of the author"
-          className=" w-auto fill-slate-300 "
+          priority
+          className=" w-auto fill-slate-300"
         />
       </Container>
     </footer>
