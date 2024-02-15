@@ -1,9 +1,9 @@
-import Container from "../components/container";
-import MoreStories from "../components/more-stories";
-import HeroPost from "../components/hero-post";
-import Intro from "../components/intro";
-import Layout from "../components/layout";
-import Clients from "../components/clients";
+import Container from "../components/Container";
+import MoreStories from "../components/MoreStories";
+import HeroPost from "../components/HeroPost";
+import Intro from "../components/Introduce";
+import Layout from "../components/Layout";
+import Clients from "../components/Clients";
 import { getAllPosts } from "../lib/api";
 import Post from "../interfaces/post";
 import { FadeIn } from "../components/FadeIn"; 

@@ -1,8 +1,10 @@
-import DateFormatter from "./date-formatter";
-import CoverImage from "./cover-image";
-import PostTitle from "./post-title";
+import DateFormatter from "./DateFormatter";
+import CoverImage from "./CoverImage";
+import PostTitle from "./PostTitle";
 import { FadeIn } from "./FadeIn";
 import Avatar from "./avatar";
+
+// import Avatar from "./Avatar";
 import type Author from "../interfaces/author";
 
 type Props = {
