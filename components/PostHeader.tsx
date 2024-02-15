@@ -2,7 +2,7 @@ import DateFormatter from "./DateFormatter";
 import CoverImage from "./CoverImage";
 import PostTitle from "./PostTitle";
 import { FadeIn } from "./FadeIn";
-import Avatar from "./avatar";
+import Avatar from "./Avatar";
 
 // import Avatar from "./Avatar";
 import type Author from "../interfaces/author";
