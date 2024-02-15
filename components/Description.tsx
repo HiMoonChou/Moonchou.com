@@ -4,7 +4,7 @@ type Props = {
   status: string
 }
 
-const Avatar = ({ myRole, category,status }: Props) => {
+const Description = ({ myRole, category,status }: Props) => {
   return (
     <div className="items-left">
       <div className="text-lg ">{myRole}</div>
@@ -13,4 +13,4 @@ const Avatar = ({ myRole, category,status }: Props) => {
     </div>
 )}
 
-export default Avatar
+export default Description;

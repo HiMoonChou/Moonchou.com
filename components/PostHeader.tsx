@@ -2,7 +2,7 @@ import DateFormatter from "./DateFormatter";
 import CoverImage from "./CoverImage";
 import PostTitle from "./PostTitle";
 import { FadeIn } from "./FadeIn";
-import Avatar from "./Avatar";
+import Description from "./Description";
 import type Author from "../interfaces/author";
 
 type Props = {
@@ -29,7 +29,7 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
               <DateFormatter dateString={date} />
             </div>
 
-              <Avatar
+              <Description
                 myRole={`My Role ${author.myRole}`}
                 category={`Category ${author.category}`}
                 status={`Status ${author.status}`}
