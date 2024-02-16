@@ -22,8 +22,6 @@ module.exports = {
         tight: 1.2,
       },
 
-
-
       fontSize: {
         "3xl": "1.5rem",
         "5xl": "2.5rem",
@@ -32,20 +30,17 @@ module.exports = {
         "8xl": "6.25rem",
       },
 
-
-
       animation: {
-        ['infinite-slider']: 'infiniteSlider 20s linear infinite',
+        ["infinite-slider"]: "infiniteSlider 20s linear infinite",
       },
       keyframes: {
         infiniteSlider: {
-          '0%': { transform: 'translateX(0)' },
-          '100%': {
-            transform: 'translateX(calc(-250px * 5))',
+          "0%": { transform: "translateX(0)" },
+          "100%": {
+            transform: "translateX(calc(-480px * 5))",
           },
         },
       },
-
     },
   },
   plugins: [],
