@@ -7,6 +7,7 @@ import Clients from "../components/Clients";
 import { getAllPosts } from "../lib/api";
 import Post from "../interfaces/post";
 import { FadeIn } from "../components/FadeIn"; 
+import TopProjects from "../components/TopProjects";
 import Link from 'next/link'
 
 type Props = {
@@ -33,6 +34,7 @@ export default function Index({ allPosts }: Props) {
             />
           )}
           <Clients/>
+          <TopProjects/>
           {morePosts.length > 0 && <MoreStories posts={morePosts} />}
         </Container>
       </Layout>

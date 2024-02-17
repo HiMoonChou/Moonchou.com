@@ -4,6 +4,7 @@ import type Post from "../interfaces/post";
 type Props = {
   posts: Post[];
 };
+
 const MoreStories = ({ posts }: Props) => {
   return (
     <section className="text-white rounded-b-lg ">
@@ -22,8 +23,6 @@ const MoreStories = ({ posts }: Props) => {
           
         ))}
         </div>
-
-    
     </section>
   );
 };

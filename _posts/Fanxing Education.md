@@ -1,14 +1,14 @@
 ---
 title: 'Fanxing Education'
 excerpt: 'Fanxing Education is a comprehensive training institution with a perfect team of teachers. The aim of the school is to popularize social art education and improve the artistic quality of students.'
-coverImage: '/assets/blog/hello-world/fanxing-brand.jpg'
+coverImage: '/assets/blog/projectCovers/fanxing-brand.jpg'
 date: '2023-07-21T05:35:07.322Z'
 author:
   myRole: '_ Brand designer'
   category: '_ #Brand #Education'
   status: '_ designing'
 ogImage:
-  url: '/assets/blog/hello-world/fanxing-brand.jpg'
+  url: '/assets/blog/projectCovers/fanxing-brand.jpg'
 ---
 
 #### About The Project

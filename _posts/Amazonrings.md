@@ -1,14 +1,14 @@
 ---
 title: 'Amazon-Alax Rings'
 excerpt: 'conceptual design'
-coverImage: '/assets/blog/hello-world/amazonrings.jpg'
+coverImage: '/assets/blog/projectCovers/amazonrings.jpg'
 date: '2020-05-16T05:35:07.322Z'
 author:
   myRole: '_ Product designer & project management'
   category: '_ #Product design #Crypto #Casino'
   status: '_ 3 Months, Launched in January 2023'
 ogImage:
-  url: '/assets/blog/hello-world/amazonrings.jpg'
+  url: '/assets/blog/projectCovers/amazonrings.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

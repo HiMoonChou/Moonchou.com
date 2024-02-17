@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "dev": "next",
+    "dev": "next & npx next-video sync -w",
     "build": "next build",
     "start": "next start",
     "typecheck": "tsc"
@@ -12,6 +12,7 @@
     "framer-motion": "^10.16.3",
     "gray-matter": "^4.0.3",
     "next": "^13.4.20-canary.12",
+    "next-video": "^0.14.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",

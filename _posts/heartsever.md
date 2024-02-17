@@ -1,14 +1,14 @@
 ---
 title: 'Ziroom Heart Service'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
-coverImage: '/assets/blog/hello-world/heartsever.jpg'
+coverImage: '/assets/blog/projectCovers/heartsever.jpg'
 date: '2019-11-18T05:35:07.322Z'
 author:
   myRole: designer
   category: '#Typography  #Visual #Ziroom'
   status: 2 Weeks, Launched in January 2020
 ogImage:
-  url: '/assets/blog/hello-world/heartsever.jpg'
+  url: '/assets/blog/projectCovers/heartsever.jpg'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
