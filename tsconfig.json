@@ -10,11 +10,11 @@
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "noEmit": true,
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "incremental": true
   },
   "exclude": ["node_modules"],
-  "include": ["video.d.ts", "video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.jsx"]
+  "include": ["video.d.ts", "video.d.ts", "video.d.ts", "next-env.d.ts", "**/*.ts", "**/*.tsx", "pages/index.jsx"]
 }
