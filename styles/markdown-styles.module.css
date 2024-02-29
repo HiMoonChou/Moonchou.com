@@ -30,7 +30,7 @@
 }
 
 .markdown h3 {
-  @apply text-2xl md:mt-8 mb-4 leading-snug ;
+  @apply text-2xl md:mt-8 mb-4 w-full leading-snug ;
 }
 
 .markdown h4 {
