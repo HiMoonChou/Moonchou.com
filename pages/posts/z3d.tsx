@@ -4,8 +4,6 @@ import Container from "../../components/Container";
 import Header from "../../components/Header";
 import { useRouter } from "next/router";
 import Head from "next/head";
-import Video from 'next-video';
-import Poster from "../../videos/postervideo.mp4"
 
 import PostHeader from "../../components/PostHeader";
 
