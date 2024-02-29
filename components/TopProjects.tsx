@@ -17,21 +17,30 @@ const Projects = [
   ["Fanxing Education", Fanxing]
 ];
 
+type Props = {
+  posts: Post[];
+};
 
-const TopProjects = () => {
+
+const TopProjects = ({ posts }: Props ) => {
   return (
     <section className="text-white rounded-b-lg ">
       <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
-        Top Projects
+        Key Projects
       </h2>
 
-      <div className="cloumns-1 pb-16 md:columns-2  md:gap-x-8  lg:gap-x-4 gap-y-8 md:gap-y-16">
-        {Projects.map(([projects, cover], index) => (
-          <Link href="/posts/z3d" key={index}>
-            <Image src={cover} alt={String(projects)} className="pb-8 cursor-pointer" />
-          </Link>
+      <div className="cloumns-1 pb-16  md:columns-2  md:gap-x-8 text-left lg:gap-x-4 gap-y-8 md:gap-y-16  ">
+        {posts.map((post) => (
+          <PostPreview
+            key={post.slug}
+            title={post.title}
+            coverImage={post.coverImage}
+            slug={post.slug}
+            excerpt={post.excerpt}
+          />
+          
         ))}
-      </div>
+        </div>
 
 
     </section>

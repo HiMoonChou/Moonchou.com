@@ -1,0 +1,50 @@
+.markdown {
+  @apply text-lg leading-relaxed;
+}
+
+.markdown p {
+  @apply text-gray-400 font-light mb-4 leading-tight md:ml-[50%];
+
+}
+.markdown ul,
+.markdown ol,
+
+.markdown br {
+  @apply my-4;
+}
+
+.markdown blockquote {
+  @apply my-6;
+}
+
+.markdown hr {
+  @apply border-gray-700 mt-16;
+}
+
+.markdown h1 {
+  @apply text-6xl text-gray-400 font-bold mt-12 mb-4 leading-snug md:-mb-24;
+}
+
+.markdown h2 {
+  @apply text-3xl mt-12 mb-4 leading-snug md:ml-[50%];
+}
+
+.markdown h3 {
+  @apply text-2xl md:mt-8 mb-4 leading-snug ;
+}
+
+.markdown h4 {
+  @apply text-lg text-white mt-6  mb-4 leading-normal md:ml-[50%];
+}
+
+.markdown a {
+  @apply inline-block border-b-2 border-slate-200 relative;
+}
+
+.markdown a:after {
+  @apply content-[''] bg-slate-400 h-[2px] w-[0%] left-0 -bottom-[2px] absolute duration-300;
+}
+
+.markdown a:hover:after {
+  @apply w-[100%];
+}

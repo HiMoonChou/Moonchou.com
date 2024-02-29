@@ -3,12 +3,13 @@ import { EXAMPLE_PATH } from "../lib/constants";
 import Image from "next/image";
 import Link from "next/link";
 import Linkedin from "./linkedin";
-import Moonchou from "../public/assets/blog/dynamic-routing/covers2.svg";
+import Moonchou from "../public/assets/blog/icons/moonchou.svg";
 
 const Footer = () => {
   return (
     <footer className="w-full bg-gray-400 fixed -z-50 bottom-0">
       <Container>
+        
         <div className="py-8 w-full mx-auto md:flex md:items-center md:justify-between  ">
           <div className="pb-4">
             <h4>© 2023 Moon Chou. All Rights Reserved.</h4>
@@ -25,15 +26,11 @@ const Footer = () => {
             </Link>
             <Linkedin></Linkedin>
           </div>
+          
         </div>
-
-        <Image
-          src={Moonchou}
-          alt="Picture of the author"
-          priority
-          className=" w-auto fill-slate-300"
-        />
+        <Moonchou className=" text-black w-full"/>
       </Container>
+
     </footer>
   );
 };

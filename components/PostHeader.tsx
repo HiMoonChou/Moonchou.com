@@ -18,10 +18,10 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
   return (
     <>
       <FadeIn>
-        <div className="mt-24 mix-blend-difference md:grid grid-cols-8 text-gray-400">
+        <div className="md:mt-24 mb-8 md:mb-0  md:grid grid-cols-8 text-white">
           <div className="hidden  md:mb-12 "></div>
 
-          <div className=" text-left md:fixed  md:w-[30%]">
+          <div className=" text-left md:absolute  md:w-[30%]">
             <PostTitle>{title}</PostTitle>
             <div className="block  md:hidden"></div>
 

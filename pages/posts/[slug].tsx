@@ -20,7 +20,7 @@ type Props = {
 
 export default function Post({ post, morePosts, preview }: Props) {
   const router = useRouter();
-  const title = `${post.title} | Next.js Blog Example with ${CMS_NAME}`;
+  const title = `${post.title} | Next.js Blog with ${CMS_NAME}`;
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
@@ -46,6 +46,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 slug={post.slug}
                 author={post.author}
               />
+              
               <PostBody content={post.content} />
             </article>
           </>
