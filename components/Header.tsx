@@ -16,10 +16,10 @@ const tabsGroup = [
     key: "/posts/0.about-moonchou",
   },
 
-  {
-    name: "Labs",
-    key: "/labs",
-  },
+  // {
+  //   name: "Labs",
+  //   key: "/labs",
+  // },
 
 ]
 

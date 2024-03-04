@@ -12,9 +12,15 @@ type Props = {
   excerpt: string;
   author: Author;
   slug: string;
+  videoLink: string;
 };
 
-const PostHeader = ({ title, coverImage, date, author }: Props) => {
+
+
+const PostHeader = ({ title, coverImage, date, author, videoLink }: Props) => {
+
+  console.log("videoLink",videoLink)
+
   return (
     <>
       <FadeIn>
@@ -29,20 +35,21 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
               <DateFormatter dateString={date} />
             </div>
 
-              <Description
-                myRole={`My Role ${author.myRole}`}
-                category={`Category ${author.category}`}
-                status={`Status ${author.status}`}
-              />
-            </div>
-
-            
+            <Description
+              myRole={`My Role ${author.myRole}`}
+              category={`Category ${author.category}`}
+              status={`Status ${author.status}`}
+            />
           </div>
-  
+
+
+        </div>
+
 
         <div className="mb-8 w-auto justify-center  md:mb-8   sm:mx-0 ">
           <CoverImage title={title} src={coverImage} />
         </div>
+
       </FadeIn>
     </>
   );

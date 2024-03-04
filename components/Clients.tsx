@@ -15,6 +15,12 @@ const clients = [
   ["Terra", logoTerra],
   ["Tiktok", logoTiktok],
   ["Proya", logoProya],
+  ["Amazon", logoAmazon],
+  ["Iqiyi", logoIqiyi],
+  ["Ziroom", logoZiroom],
+  ["Terra", logoTerra],
+  ["Tiktok", logoTiktok],
+  ["Proya", logoProya],
 ];
 
 export const Clients = () => {

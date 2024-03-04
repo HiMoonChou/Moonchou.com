@@ -45,9 +45,12 @@ export default function Post({ post, morePosts, preview }: Props) {
                 excerpt={post.excerpt}
                 slug={post.slug}
                 author={post.author}
+                videoLink={post.videoLink}
               />
               
-              <PostBody content={post.content} />
+              <PostBody 
+              content={post.content}
+              videoLink={post.videoLink} />
             </article>
           </>
         )}
@@ -71,6 +74,7 @@ export async function getStaticProps({ params }: Params) {
     "content",
     "ogImage",
     "coverImage",
+    "videoLink",
   ]);
   const content = await markdownToHtml(post.content || "");
 

@@ -22,14 +22,14 @@ type Props = {
 };
 
 
-const TopProjects = ({ posts }: Props ) => {
+const KeyProjects = ({ posts }: Props ) => {
   return (
     <section className="text-white rounded-b-lg ">
       <h2 className="mb-8 text-5xl md:text-7xl font-bold tracking-tighter leading-tight">
         Key Projects
       </h2>
 
-      <div className="cloumns-1 pb-16  md:columns-2  md:gap-x-8 text-left lg:gap-x-4 gap-y-8 md:gap-y-16  ">
+      <div className="cloumns-1 md:grid md:grid-cols-2 pb-16 md:gap-x-8 text-left lg:gap-x-4 gap-y-8 md:gap-y-4  ">
         {posts.map((post) => (
           <PostPreview
             key={post.slug}
@@ -47,4 +47,4 @@ const TopProjects = ({ posts }: Props ) => {
   );
 };
 
-export default TopProjects;
+export default KeyProjects;
