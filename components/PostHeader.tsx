@@ -16,10 +16,7 @@ type Props = {
 };
 
 
-
-const PostHeader = ({ title, coverImage, date, author, videoLink }: Props) => {
-
-  console.log("videoLink",videoLink)
+const PostHeader = ({ title, coverImage, date, author }: Props) => {
 
   return (
     <>

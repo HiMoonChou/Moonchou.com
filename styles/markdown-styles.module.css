@@ -4,11 +4,9 @@
 
 .markdown p {
   @apply text-gray-400 font-light mb-4 leading-tight md:ml-[50%];
-
 }
 .markdown ul,
 .markdown ol,
-
 .markdown br {
   @apply my-4;
 }
@@ -30,11 +28,23 @@
 }
 
 .markdown h3 {
-  @apply text-2xl md:mt-8 mb-4 w-full leading-snug ;
+  @apply text-2xl md:mt-8 mb-4 leading-snug;
 }
 
 .markdown h4 {
   @apply text-lg text-white mt-6  mb-4 leading-normal md:ml-[50%];
+}
+
+.markdown img {
+  @apply h-auto max-w-full w-[3000px] object-cover;
+}
+
+.markdown img[alt=half-left] {
+  @apply h-auto md:w-1/2  object-cover;
+}
+
+.markdown img[alt=half-right] {
+  @apply h-auto md:w-1/2 ml-auto object-cover;
 }
 
 .markdown a {

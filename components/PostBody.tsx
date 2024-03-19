@@ -17,8 +17,7 @@ const PostBody = ({ content, videoLink }: Props) => {
         </div>
         )}
         
-        <div className="mx-auto box-border ">
-
+        <div className="mx-auto w-full box-border ">
           <div
             className={markdownStyles['markdown']}
             dangerouslySetInnerHTML={{ __html: content }}
