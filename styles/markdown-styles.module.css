@@ -36,7 +36,7 @@
 }
 
 .markdown img {
-  @apply h-auto max-w-full w-[3000px] object-cover;
+  @apply h-auto max-w-full object-cover;
 }
 
 .markdown img[alt=half-left] {
