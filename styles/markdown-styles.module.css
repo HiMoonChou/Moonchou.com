@@ -36,15 +36,15 @@
 }
 
 .markdown img {
-  @apply h-auto max-w-full object-cover;
+  @apply h-auto max-w-full object-cover rounded-md md:rounded-xl;
 }
 
 .markdown img[alt=half-left] {
-  @apply h-auto md:w-1/2  object-cover;
+  @apply h-auto md:w-1/2  object-cover rounded-md md:rounded-xl;
 }
 
 .markdown img[alt=half-right] {
-  @apply h-auto md:w-1/2 ml-auto object-cover;
+  @apply h-auto md:w-1/2 ml-auto object-cover rounded-md md:rounded-xl;
 }
 
 .markdown a {

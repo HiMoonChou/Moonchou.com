@@ -13,8 +13,8 @@ type Props = {
 const PostPreview = ({ title, coverImage, excerpt, slug}: Props) => {
   return (
     <div className=" max-w-full my-4 inline-block hover:text-white underlinemotion ">
-      <div className=" bg-white">
-      <div className=" mb-4 hover:grayscale hover:mix-blend-difference ">
+      <div className=" ">
+      <div className=" mb-4 hover:grayscale  hover:mix-blend-difference ">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
       </div>

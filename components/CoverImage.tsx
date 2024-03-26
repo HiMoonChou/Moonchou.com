@@ -13,7 +13,7 @@ const CoverImage = ({ title, src, slug }: Props) => {
     <Image
       src={src}
       alt={`Cover Image for ${title}`}
-      className={cn('w-full')}
+      className={cn('w-full rounded-md md:rounded-xl')}
       width={1300}
       height={630}
       priority
