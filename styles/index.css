@@ -8,15 +8,15 @@
 
 @layer components {
   .underlinemotion {
-    @apply relative;
+    @apply relative ;
   }
 
   .underlinemotion::after {
-    @apply content-[''] bg-slate-400 h-[1px] w-[0%] left-0 -bottom-[5px] absolute duration-300;
+    @apply content-[''] bg-slate-400 h-[1px] w-[0%]  left-0 -bottom-[5px] absolute duration-300;
   }
 
   .underlinemotion:hover::after {
-    @apply w-[100%];
+    @apply w-[100%] ;
   }
 }
 

@@ -9,7 +9,7 @@ type Props = {
 const PostBody = ({ content, videoLink }: Props) => {
   return (
     <FadeIn>
-      <div className="grid mb-[340px] text-white  pb-64 md:mb-[1000px] rounded-b-lg">
+      <div className="grid mb-[340px] text-white pb-12  mb:pb-40 md:mb-[50%] rounded-b-lg">
 
         {videoLink && (
         <div className="flex aspect-video w-1/2 md:mt-16 justify-self-end pb-20">

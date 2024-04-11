@@ -10,12 +10,12 @@ import illustrationSystem from "../public/assets/blog/projectCovers/illustration
 import Fanxing from "../public/assets/blog/projectCovers/fanxing-brand.jpg"
 import { link } from "fs";
 
-const Projects = [
-  ["Omibet", Omibet],
-  ["3D system", Z3dCover],
-  ["illustration system", illustrationSystem],
-  ["Fanxing Education", Fanxing]
-];
+// const Projects = [
+//   ["Omibet", Omibet],
+//   ["3D system", Z3dCover],
+//   ["illustration system", illustrationSystem],
+//   ["Fanxing Education", Fanxing]
+// ];
 
 type Props = {
   posts: Post[];

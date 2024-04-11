@@ -18,13 +18,14 @@ type Props = {
 export default function Index({ allPosts }: Props) {
   const heroPost = allPosts[0];
   const topProjects = allPosts.slice(1, 5)
-  const morePosts = allPosts.slice(1);
+  const morePosts = allPosts.slice(5);
   return (
     <>
-      <FadeIn>
+      
         <Layout>
           <Container>
             <Header />
+            <FadeIn>
             <Intro />
             {heroPost && (
               <HeroPost
@@ -39,9 +40,11 @@ export default function Index({ allPosts }: Props) {
             <Clients />
             {topProjects.length > 0 && <KeyProjects posts={topProjects} />}
             {morePosts.length > 0 && <MoreStories posts={morePosts} />}
+            </FadeIn>
           </Container>
+         
         </Layout>
-      </FadeIn>
+     
     </>
   );
 }

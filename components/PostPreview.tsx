@@ -14,11 +14,11 @@ const PostPreview = ({ title, coverImage, excerpt, slug}: Props) => {
   return (
     <div className=" max-w-full my-4 inline-block hover:text-white underlinemotion ">
       <div className=" ">
-      <div className=" mb-4 hover:grayscale  hover:mix-blend-difference ">
+      <div className=" mb-4 ">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
       </div>
-      <h3 className="text-xl leading-snug">
+      <h3 className="text-xl leading-snug h-8 md:h-12 mx-2">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
@@ -26,7 +26,7 @@ const PostPreview = ({ title, coverImage, excerpt, slug}: Props) => {
           {title}
         </Link>
       </h3>
-      <p className="text-lg text-gray-400 leading-snug mb-2">
+      <p className="text-md font-light mx-2 text-gray-400 leading-snug mb-2">
         {excerpt}
       </p>
     </div>
