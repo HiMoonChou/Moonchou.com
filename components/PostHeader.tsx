@@ -21,6 +21,10 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
   return (
     <>
       <FadeIn>
+        <div className="mb-8 min-w-full  justify-center  md:mb-8   sm:mx-0 ">
+          <CoverImage title={title} src={coverImage} />
+        </div>
+
         <div className="md:mt-24 mb-8 md:mb-0  md:grid grid-cols-8 text-white">
           <div className="hidden  md:mb-12 "></div>
 
@@ -40,11 +44,6 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
           </div>
 
 
-        </div>
-
-
-        <div className="mb-8 w-auto justify-center  md:mb-8   sm:mx-0 ">
-          <CoverImage title={title} src={coverImage} />
         </div>
 
       </FadeIn>

@@ -1,5 +1,5 @@
 .markdown {
-  @apply text-lg leading-relaxed;
+  @apply text-lg leading-relaxed ;
 }
 
 .markdown p {
@@ -28,19 +28,24 @@
 }
 
 .markdown h3 {
-  @apply text-2xl md:mt-8 mb-4 leading-snug;
+  @apply text-2xl flex-auto md:mt-6 mb-4 leading-snug;
 }
 
 .markdown h4 {
-  @apply text-lg text-white mt-6  mb-4 leading-normal md:ml-[50%];
+  @apply text-lg text-white mt-4 mb-4  leading-normal md:ml-[50%];
+}
+
+.markdown h5 {
+  @apply  md:flex justify-between gap-2;
 }
 
 .markdown img {
   @apply h-auto max-w-full object-cover rounded-md md:rounded-xl;
 }
 
+
 .markdown img[alt=half-left] {
-  @apply h-auto md:w-1/2  object-cover rounded-md md:rounded-xl;
+  @apply h-auto md:w-[49.3%] object-cover inline md:mt-6 mb-4  rounded-md md:rounded-xl;
 }
 
 .markdown img[alt=half-right] {

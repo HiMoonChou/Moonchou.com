@@ -1,14 +1,14 @@
 ---
 title: 'About Typography'
 excerpt: 'Inclusion of non-commercial typography work.'
-coverImage: '/assets/blog/projectCovers/poster.gif'
+coverImage: '/assets/blog/projectCovers/poster.webp'
 date: '2022-06-11T05:35:07.322Z'
 author:
   myRole: '_ Product designer & project management'
   category: '_ #Product design #Crypto #Casino'
   status: '_ 3 Months, Launched in January 2023'
 ogImage:
-  url: '/assets/blog/projectCovers/poster.gif'
+  url: '/assets/blog/projectCovers/poster.webp'
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.

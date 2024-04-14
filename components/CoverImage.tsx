@@ -13,10 +13,11 @@ const CoverImage = ({ title, src, slug }: Props) => {
     <Image
       src={src}
       alt={`Cover Image for ${title}`}
-      className={cn('w-full rounded-md md:rounded-xl hover:scale-[98%] transform transition duration-y')}
+      className={cn('w-svw rounded-md md:rounded-xl ')}
       width={1300}
       height={630}
-      priority
+      // placeholder='blur'
+      // blurDataURL=''
     />
   )
   return (

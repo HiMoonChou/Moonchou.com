@@ -11,6 +11,7 @@ import Head from "next/head";
 import { CMS_NAME } from "../../lib/constants";
 import markdownToHtml from "../../lib/markdownToHtml";
 import type PostType from "../../interfaces/post";
+import { FadeIn } from "../../components/FadeIn";
 
 type Props = {
   post: PostType;
@@ -24,36 +25,38 @@ export default function Post({ post, morePosts, preview }: Props) {
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
   }
-  
+
   return (
     <Layout preview={preview}>
       <Container>
         <Header />
-        {router.isFallback ? (
-          <PostTitle>Loading…</PostTitle>
-        ) : (
-          <>
-            <article className="mb-32">
-              <Head>
-                <title>{title}</title>
-                <meta property="og:image" content="{post.ogImage.url}" />
-              </Head>
-              <PostHeader
-                title={post.title}
-                coverImage={post.coverImage}
-                date={post.date}
-                excerpt={post.excerpt}
-                slug={post.slug}
-                author={post.author}
-                videoLink={post.videoLink}
-              />
-              
-              <PostBody 
-              content={post.content}
-              videoLink={post.videoLink} />
-            </article>
-          </>
-        )}
+        <FadeIn>
+          {router.isFallback ? (
+            <PostTitle>Loading…</PostTitle>
+          ) : (
+            <>
+              <article className="mb-32">
+                <Head>
+                  <title>{title}</title>
+                  <meta property="og:image" content="{post.ogImage.url}" />
+                </Head>
+                <PostHeader
+                  title={post.title}
+                  coverImage={post.coverImage}
+                  date={post.date}
+                  excerpt={post.excerpt}
+                  slug={post.slug}
+                  author={post.author}
+                  videoLink={post.videoLink}
+                />
+
+                <PostBody
+                  content={post.content}
+                  videoLink={post.videoLink} />
+              </article>
+            </>
+          )}
+        </FadeIn>
       </Container>
     </Layout>
   );

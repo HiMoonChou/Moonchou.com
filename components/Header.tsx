@@ -47,9 +47,6 @@ const Header = () => {
         <div className=" text-slate-400 text-lg font-light"> <Linkedin /></div>
 
       </div>
-
-
-
     </div>
   );
 };

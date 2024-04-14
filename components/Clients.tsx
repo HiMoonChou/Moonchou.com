@@ -35,7 +35,7 @@ export const Clients = () => {
                 key={`${client}-${index}`}
               >
                 <FadeIn>
-                  <Image src={logo} alt={String(client)} width={80} unoptimized />
+                  <Image src={logo} placeholder="blur" blurDataURL="" alt={String(client)} width={80} unoptimized />
                 </FadeIn>
               </div>
             ))}

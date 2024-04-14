@@ -12,7 +12,7 @@ const PostBody = ({ content, videoLink }: Props) => {
       <div className="grid mb-[340px] text-white pb-12  mb:pb-40 md:mb-[50%] rounded-b-lg">
 
         {videoLink && (
-        <div className="flex aspect-video w-1/2 md:mt-16 justify-self-end pb-20">
+        <div className="flex aspect-video w-full md:w-1/2 justify-self-end md:pb-20">
           <iframe width="100%" height="100%" src={videoLink} title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen ></iframe>
         </div>
         )}
