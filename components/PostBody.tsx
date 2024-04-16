@@ -37,8 +37,9 @@ const PostBody = ({ content, videoLink }: Props) => {
                 <Image src={props.src} alt={props.alt}  
                 width={1920}
                 height={500}
-                blurDataURL="" //automatically provided
-                placeholder="blur" // Optional blur-up while loading
+                blurDataURL="/images/path-to-blur-image.png"
+                placeholder="blur"
+
                 />
               ),
             }}
