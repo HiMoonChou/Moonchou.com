@@ -9,7 +9,7 @@ const Description = ({ myRole, category,status }: Props) => {
     <div className="items-left">
       <div className="text-lg ">{myRole}</div>
       <div className="text-lg">{category}</div>
-      <div className="text-lg">{status}</div>
+      {/* <div className="text-lg">{status}</div> */}
     </div>
 )}
 

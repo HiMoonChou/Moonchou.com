@@ -16,8 +16,8 @@ const CoverImage = ({ title, src, slug }: Props) => {
       className={cn('w-svw rounded-md md:rounded-xl ')}
       width={1300}
       height={630}
-      // placeholder='blur'
-      // blurDataURL=''
+      blurDataURL="..." //automatically provided
+      placeholder="blur" // Optional blur-up while loading
     />
   )
   return (

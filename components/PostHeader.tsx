@@ -37,9 +37,9 @@ const PostHeader = ({ title, coverImage, date, author }: Props) => {
             </div>
 
             <Description
-              myRole={`My Role ${author.myRole}`}
-              category={`Category ${author.category}`}
-              status={`Status ${author.status}`}
+              myRole={` ${author.myRole}`}
+              category={` ${author.category}`}
+              status={` ${author.status}`}
             />
           </div>
 

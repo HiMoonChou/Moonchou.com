@@ -7,7 +7,7 @@ import Moonchou from "../public/assets/blog/icons/moonchou.svg";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-gray-400 fixed -z-50 bottom-0">
+    <footer className="w-full bg-gray-400 fixed -z-10 bottom-0">
       <Container>
         
         <div className="py-8 w-full mx-auto md:flex md:items-center md:justify-between  ">
