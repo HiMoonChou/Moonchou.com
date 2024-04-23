@@ -18,7 +18,7 @@ const PostPreview = ({ title, coverImage, excerpt, slug}: Props) => {
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
       </div>
-      <h3 className="text-xl leading-snug h-6 md:h-8 mx-2 ">
+      <h3 className="text-xl leading-snug mb-3 md:mb-3 mx-2 ">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"
