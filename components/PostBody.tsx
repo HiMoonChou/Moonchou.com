@@ -2,6 +2,7 @@ import markdownStyles from '../styles/markdown-styles.module.css'
 import { FadeIn } from './FadeIn'
 import ReactMarkdown from 'react-markdown'
 import Image from 'next/image'
+import NextPost from './NextPost'
 import { createRoot } from 'react-dom/client'
 import remarkGfm from 'remark-gfm'
 import  Markup  from 'react-render-markup'
@@ -10,12 +11,13 @@ import remarkHtml from 'remark-html'
 import { HtmlContext } from 'next/dist/shared/lib/html-context.shared-runtime'
 
 type Props = {
+  title: string
   content: string
   videoLink: string;
 }
 
 
-const PostBody = ({ content, videoLink }: Props) => {
+const PostBody = ({ title, content, videoLink }: Props) => {
   return (
     <FadeIn>
       <div className="grid mb-[340px] text-white pb-12  mb:pb-40 md:mb-[50%] rounded-b-lg">
@@ -29,7 +31,6 @@ const PostBody = ({ content, videoLink }: Props) => {
         <div className="mx-auto w-full box-border ">
 
           <ReactMarkdown
-           
             className={markdownStyles['markdown']}
             rehypePlugins={[rehypeRaw]} children={content}
             components={{
@@ -37,9 +38,8 @@ const PostBody = ({ content, videoLink }: Props) => {
                 <Image src={props.src} alt={props.alt}  
                 width={1920}
                 height={500}
-                blurDataURL="/images/path-to-blur-image.png"
+                blurDataURL="..."
                 placeholder="blur"
-
                 />
               ),
             }}
@@ -54,7 +54,7 @@ const PostBody = ({ content, videoLink }: Props) => {
 
 
 
-
+        {/* <NextPost title={title}/> */}
       </div>
     </FadeIn>
   )

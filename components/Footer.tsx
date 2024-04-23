@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="pb-4">
             <h4>© 2023 Moon Chou. All Rights Reserved.</h4>
             <p>
-              Last updated by Moon on September 26, 2023, 1:27 AM Kuala Lumpur
+              Last updated by Moon on April 21, 2024, 12:27 PM Kuala Lumpur
             </p>
           </div>
           <div className="flex flex-wrap items-center md:justify-between">

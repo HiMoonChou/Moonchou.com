@@ -12,13 +12,13 @@ type Props = {
 
 const PostPreview = ({ title, coverImage, excerpt, slug}: Props) => {
   return (
-    <div className=" max-w-full my-4 inline-block hover:text-white underlinemotion ">
+    <div className=" max-w-full my-4 inline-block hover:text-white ">
       <div className="">
       <div className=" mb-4 hover:scale-[98%] transform transition duration-y ">
         <CoverImage slug={slug} title={title} src={coverImage} />
       </div>
       </div>
-      <h3 className="text-xl leading-snug h-8 md:h-12 mx-2">
+      <h3 className="text-xl leading-snug h-6 md:h-8 mx-2 ">
         <Link
           as={`/posts/${slug}`}
           href="/posts/[slug]"

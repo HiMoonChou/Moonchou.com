@@ -51,6 +51,7 @@ export default function Post({ post, morePosts, preview }: Props) {
                 />
 
                 <PostBody
+                  title={post.title}
                   content={post.content}
                   videoLink={post.videoLink} />
               </article>

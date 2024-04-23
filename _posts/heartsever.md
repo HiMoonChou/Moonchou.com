@@ -1,6 +1,6 @@
 ---
 title: 'Ziroom Heart Service'
-excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
+excerpt: 'Ziroom officially released the "Ziroomxin Service Commitment" to provide multiple service guarantees for Ziroom guests (tenants) and Ziroom owners through service upgrades. '
 coverImage: '/assets/blog/projectCovers/heartsever.jpg'
 date: '2019-11-18T05:35:07.322Z'
 author:
@@ -11,13 +11,11 @@ ogImage:
   url: '/assets/blog/projectCovers/heartsever.jpg'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus. Praesent elementum facilisis leo vel fringilla. Congue mauris rhoncus aenean vel. Egestas sed tempus urna et pharetra pharetra massa massa ultricies.
+#### About The Project
 
-Venenatis cras sed felis eget velit. Consectetur libero id faucibus nisl tincidunt. Gravida in fermentum et sollicitudin ac orci phasellus egestas tellus. Volutpat consequat mauris nunc congue nisi vitae. Id aliquet risus feugiat in ante metus dictum at tempor. Sed blandit libero volutpat sed cras. Sed odio morbi quis commodo odio aenean sed adipiscing. Velit euismod in pellentesque massa placerat. Mi bibendum neque egestas congue quisque egestas diam in arcu. Nisi lacus sed viverra tellus in. Nibh cras pulvinar mattis nunc sed. Luctus accumsan tortor posuere ac ut consequat semper viverra. Fringilla ut morbi tincidunt augue interdum velit euismod.
+Ziroom officially released the "Ziroomxin Service Commitment" to provide multiple service guarantees for Ziroom guests (tenants) and Ziroom owners through service upgrades. "Ziroomxin Service Commitment" makes clear commitments to the services provided to tenants and owners in four major aspects: residential health, housing quality, cost settlement, and credit certification, in order to improve its service quality and solve consumers' pain points.
 
-## Lorem Ipsum
-
-Tristique senectus et netus et malesuada fames ac turpis. Ridiculous mus mauris vitae ultricies leo integer malesuada nunc vel. In mollis nunc sed id semper. Egestas tellus rutrum tellus pellentesque. Phasellus vestibulum lorem sed risus ultricies tristique nulla. Quis blandit turpis cursus in hac habitasse platea dictumst quisque. Eros donec ac odio tempor orci dapibus ultrices. Aliquam sem et tortor consequat id porta nibh. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo nulla. Diam vulputate ut pharetra sit amet. Ut tellus elementum sagittis vitae et leo. Arcu non odio euismod lacinia at quis risus sed vulputate.
+### ![half-right](/assets/service/service-7.jpg "Ziroom Heart Service")
 
 ### ![images](/assets/service/service.jpg "Ziroom Heart Service")
 ### ![images](/assets/service/service-1.jpg "Ziroom Heart Service")

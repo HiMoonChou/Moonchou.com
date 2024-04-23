@@ -17,6 +17,3 @@ ogImage:
 ### ![images](/assets/visual/visual-4.png "Visual Works")
 ### ![images](/assets/visual/visual-5.png "Visual Works")
 ### ![images](/assets/visual/visual-6.png "Visual Works")
-### ![images](/assets/visual/visual-7.png "Visual Works")
-### ![images](/assets/visual/visual-8.png "Visual Works")
-### ![images](/assets/visual/visual-9.png "Visual Works")

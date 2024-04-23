@@ -4,7 +4,7 @@
 }
 
 .markdown p {
-  @apply text-gray-400 font-light mb-4 leading-tight md:ml-[50%];
+  @apply text-gray-400 font-light mb-8 leading-tight md:ml-[50%];
 }
 .markdown ul,
 .markdown ol,
@@ -21,11 +21,11 @@
 }
 
 .markdown h1 {
-  @apply text-6xl text-gray-400 font-bold mt-12 mb-4 leading-snug md:-mb-24;
+  @apply text-5xl text-gray-400 font-bold mt-8 md:mt-16 mb-6  leading-snug  md:ml-[50%];
 }
 
 .markdown h2 {
-  @apply text-3xl mt-12 mb-4 leading-snug md:ml-[50%];
+  @apply text-3xl  mt-4 md:mt-4 mb-4 leading-snug md:ml-[50%];
 }
 
 .markdown h3 {
@@ -37,7 +37,7 @@
 }
 
 .markdown h5 {
-  @apply  md:flex justify-between gap-2;
+  @apply  md:flex justify-between gap-2 mt-6;
 }
 
 .markdown img {
@@ -46,7 +46,7 @@
 
 
 .markdown img[alt=half-left] {
-  @apply h-auto md:w-[49.3%] object-cover inline md:mt-6 mb-4  rounded-md md:rounded-xl;
+  @apply h-auto md:w-[49.3%] object-cover inline mb-4 md:mb-0 rounded-md md:rounded-xl;
 }
 
 .markdown img[alt=half-right] {
