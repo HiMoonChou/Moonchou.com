@@ -4,8 +4,8 @@ excerpt: 'The collection contains typography design works from various periods.'
 coverImage: '/assets/blog/projectCovers/poster.webp'
 date: '2022-06-11T05:35:07.322Z'
 author:
-  myRole: 'Product designer & project management'
-  category: '#Product design #Crypto #Casino'
+  myRole: 'Designer'
+  category: '#Typography #Poster'
   status: '3 Months, Launched in January 2023'
 ogImage:
   url: '/assets/blog/projectCovers/poster.webp'

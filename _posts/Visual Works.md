@@ -4,9 +4,9 @@ excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo
 coverImage: '/assets/blog/projectCovers/gradient-works.jpg'
 date: '2021-05-16T05:35:07.322Z'
 author:
-  myRole: '_ Product designer & project management'
-  category: '_ #Product design #Crypto #Casino'
-  status: '_ 3 Months, Launched in January 2023'
+  myRole: 'Creative designer'
+  category: '#Visual Works'
+  status: '3 Months, Launched in January 2023'
 ogImage:
   url: '/assets/blog/projectCovers/gradient-works.jpg'
 ---

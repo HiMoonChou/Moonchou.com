@@ -5,7 +5,7 @@ coverImage: '/assets/blog/projectCovers/alexa-poster.jpg'
 date: '2019-05-16T05:35:07.322Z'
 author:
   myRole: 'Product designer & project management'
-  category: '#Product design #Crypto #Casino'
+  category: '#Visual Design #Poster'
   status: '3 Months, Launched in January 2023'
 ogImage:
   url: '/assets/blog/projectCovers/alexa-poster.jpg'

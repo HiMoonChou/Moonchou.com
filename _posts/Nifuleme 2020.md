@@ -5,7 +5,7 @@ coverImage: "/assets/blog/projectCovers/nflm2020.png"
 date: "2020-10-16T05:35:07.322Z"
 author:
   myRole: "Product designer & project management"
-  category: "#Product design #Crypto #Casino"
+  category: "#Product design "
   status: "3 Months, Launched in January 2023"
 ogImage:
   url: "/assets/blog/projectCovers/nflm2020.png"
