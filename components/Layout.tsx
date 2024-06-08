@@ -1,5 +1,11 @@
 import Footer from './Footer'
 import Meta from './Meta'
+import localFont from 'next/font/local'
+
+// const myFont = localFont({
+//   src: '../public/static-fonts/BerkeleyMono.otf',
+//   display: 'swap',
+// })
 
 type Props = {
   preview?: boolean
@@ -10,7 +16,7 @@ const Layout = ({ preview, children }: Props) => {
   return (
     <>
       <Meta />
-      <div className="min-h-screen bg-black md:rounded-b-[48px]">
+      <div  className="min-h-screen bg-black md:rounded-b-[48px]">
         <main>{children}</main>
       </div>
       <Footer />
